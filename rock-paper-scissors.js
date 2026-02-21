@@ -10,3 +10,9 @@ function getComputerChoice(randomNumber) {
   }
 }
 console.log(getComputerChoice(randomNumber));
+
+function getHumanChoice() {
+  return prompt("rock, paper, or scissors?");
+}
+
+console.log(getHumanChoice());
