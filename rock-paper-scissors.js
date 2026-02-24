@@ -107,3 +107,19 @@ function playGame() {
 }
 
 playGame();
+
+const rockBtn = document.querySelector("#rock");
+const paperBtn = document.querySelector("#paper");
+const scissorsBtn = document.querySelector("#scissors");
+
+rockBtn.addEventListener("click", () => {
+  console.log("rock clicked");
+});
+
+paperBtn.addEventListener("click", () => {
+  console.log("paper clicked");
+});
+
+scissorsBtn.addEventListener("click", () => {
+  console.log("scissors clicked");
+});
